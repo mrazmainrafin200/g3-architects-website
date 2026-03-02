@@ -52,6 +52,11 @@ main>section {
     margin-top: 130px;
 }
 
+.section-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
 /* Header style */
 
 
@@ -117,11 +122,6 @@ main>section {
     max-width: 537px;
 }
 
-.features-title {
-    font-size: 3rem;
-    font-weight: bold;
-}
-
 .features-description {
     font-size: 1.02rem;
 }
@@ -151,5 +151,15 @@ main>section {
 
     .our-features {
         margin: auto;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams {
+        flex-direction: column;
+    }
+
+    .our-features {
+        margin: 50px auto;
     }
 }
